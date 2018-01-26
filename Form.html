@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+	form
+	{
+		background-image:url(images/form1.jpg);
+		}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form</title>
+</head>
+
+<body>
+<form action="" method="get" enctype="multipart/form-data" target="">
+<fieldset>
+<legend><b> Registration </b></legend>
+ Name:  <input type="text" pattern="[A-Za-z]+" name="name" value="" placeholder="Enter Name"><br></br>
+ 
+ Password: <input type="password" pattern="" name="pass" placeholder="Password"><br></br>
+ 
+ Gender:<input type="radio" name="gender" value="Male" checked>Male
+ <input type="radio" name="gender" value="Female">Female<br></br>
+ 
+ Languages Known:<br> <input type="checkbox" name="lang">HTML<br>
+ 				  <input type="checkbox" name="lang">CSS<br>
+                  <input type="checkbox" name="lang">PHP<br></br>
+                  
+ E-mail: <input type="email" name="email" placeholder="E-mail"><br></br>
+ 
+ Contact Number: <input type="tel" name="contact" pattern="[0-9]{10}" placeholder="Contact Number"><br></br>
+                  
+  Birthdate: <input type="date-time" name="bday" max="2019-12-31" min="1950-12-30"><br></br>
+  
+  Select DateTime: <input type="datetime-local" name="time"><br></br>
+  
+  Country: <select name="country">
+  				<option value="india" selected>India</option>
+                <option value="usa">USA</option>
+                <option value="spain">Spain</option>
+                <option value="shri">Shrilanka</option>
+                <option value="france">France</option>
+           </select><br></br>
+  
+ Address: <textarea name="area" rows="3" cols="20" placeholder="Address"></textarea><br></br>
+ 
+ Points: <input type="range" min="0" max="10"><br></br>
+ 
+ <input type="submit" value="Submit">&nbsp;&nbsp;
+ <input type="reset">
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
